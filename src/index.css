@@ -5,7 +5,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image:linear-gradient(90deg,rgb(22, 22, 168),rgb(119, 15, 179));
 }
 
 code {
@@ -20,8 +19,8 @@ code {
   height:46px;
 }
 .view{
-  height: 40px;
-  border:1px solid oldlace;
+  height: 50px;
+  border:2px solid rgb(224, 204, 167);
   text-align: center;
 }
 .img-div{
@@ -40,4 +39,68 @@ code {
 }
 .btn:active{
   background-color: white !important;
+}
+.create-contact{
+  min-height: 95vh  !important;
+  height: inherit;
+}
+.edit-main{
+  min-height: 95vh  !important;
+  height: inherit;
+}
+.main-viewcontact{
+  min-height: 95vh  !important;
+  height: inherit !important;
+}
+.contact-div{
+  min-height: 95vh  !important;
+  height: inherit;
+}
+/* media query for small screen */
+@media screen and (max-width:1110px) {
+  .manager-heading{
+    left:20% !important
+  }
+  .add-contact-btn{
+    left:20% !important
+  }
+  .View-contact{
+    left:35vw !important
+  }
+  
+  
+}
+/*media query for small screen */
+@media screen and (max-width:930px){
+  .View-contact{
+    left:25vw !important
+  }
+}
+/* media query for mobile view */
+@media screen and (max-width:500px){
+  .manager-heading{
+    left:10% !important;
+    font-size:1.4rem
+  }
+  .add-contact-btn{
+    left:10% !important
+  }
+  .main-div{
+    width:400px !important
+  }
+  .input{
+    width:58vw !important 
+    
+  }
+  .btn-create{
+    width:90px !important;
+    left:14vw !important;
+  }
+  .View-contact{
+    left:8vw !important;
+    width:85vw !important
+  }
+  .edit-form{
+    left: 22% !important;
+  }
 }
